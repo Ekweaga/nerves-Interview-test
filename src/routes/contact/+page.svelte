@@ -66,7 +66,7 @@ let sidebarContent;
   <p class="font-normal text-gray-700 dark:text-gray-400 leading-tight">
     {item.desc} .
   </p>
-  <Button class="bg-blue-700 mt-[20px] w-[280px] h-[50px] text-white p-3" ><a href={`/carmodel/${item.id}`}}>View details</a></Button>
+  
 </Card>{/each}
 </div>
 <ContactModal {elonpopup}/>
