@@ -47,8 +47,8 @@
   <svelte:fragment slot='footer'>
 
   <div class="flex items-center justify-center">
-  <Button color="alternative" class="bg-red-800 text-white" on:click={close}>Close</Button>
-  <Button color="alternative" class="bg-green-800 text-white" on:click={add}>Add</Button>
+  <Button color="red" class="bg-red-800 text-white" on:click={close}>Close</Button>
+  <Button color="green" class="bg-green-800 text-white" on:click={add}>Add</Button>
   </div>
    
     
